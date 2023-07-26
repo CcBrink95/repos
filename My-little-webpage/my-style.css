@@ -23,10 +23,43 @@ a:link {
     color: black;
 }
 
+a:visited {
+    color: black;
+}
+
 ul {
     display: flex;
     flex-direction: row;
     margin-left: auto;
     gap: 64px;
     padding-right: 16px;
+    list-style-type: none;
+    color: black;
+}
+
+.login {
+    width: 100px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: rgba(0, 110, 255, 0.123);
+}
+
+.register {
+    width: 125px;
+    font-size: 24px;
+    background-color: rgba(255, 115, 0, 0.199);
+    border-radius: 8px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    font-size: 50px;
 }
